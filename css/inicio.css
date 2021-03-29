@@ -1,0 +1,97 @@
+section {
+    background-color: #3f3d3d;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100px;
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+}
+
+#menu ul li a {
+    color: #ccc;
+    text-decoration: none;
+    display: block;
+    padding: 0px 10px 10px 20px;
+}
+
+#menu ul li a:hover {
+    background: rgb(129, 127, 127);
+}
+
+div {
+    font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3f3d3d;
+    color: rgb(255, 255, 255);
+}
+
+.intro {
+    margin-top: -150px;
+    margin-bottom: -20px;
+    margin-left: 100px;
+    padding: 62px;
+    height: 120vh;
+    /*background: linear-gradient(45deg, #ffcc5c 33%, rgba(0,0,0,0.6)35%), url(https://images.unsplash.com/photo-1510519138101-570d1dca3d66);
+    background-size: cover; */
+    background: linear-gradient(225deg, #ffcc5c 20%, #3c3c3c 20% 50%, #ff6f69 50% 80%, #96ceb4 80%);
+}
+
+body {
+    text-align: center;
+}
+
+#div0 {
+    font-family: arial;
+    text-align: center;
+    font-size: 2.3em;
+}
+
+#div1 {
+    font-family: arial;
+    font-size: .9em;
+    text-align: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#div2 {
+    font-size: 1.5em;
+    font-family: Arial;
+}
+
+#div3 {
+    font-family: arial;
+    font-size: 1em;
+    text-align: center;
+}
+
+#div4 {
+    font-family: arial;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+#div5 {
+    font-family: arial;
+    font-size: 1em;
+    text-align: center;
+}
+
+#div6 {
+    font-family: arial;
+    font-size: 1em;
+    text-align: center;
+}
