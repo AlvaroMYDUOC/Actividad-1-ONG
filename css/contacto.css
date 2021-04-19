@@ -8,13 +8,6 @@ body {
     width: 97vw;
 }
 
-.carrusel {
-    margin-left: auto;
-    margin-right: auto;
-    width: 45vw;
-    height: 35vh;
-}
-
 .menu {
     list-style: none;
     padding: 0;
@@ -45,23 +38,62 @@ body {
     margin-top: 20px;
 }
 
-body {
-    text-align: center;
-}
-
 #div0 {
     font-family: arial;
     text-align: center;
     font-size: 2.3em;
 }
 
-#div2 {
-    font-size: 1.5em;
-    font-family: Arial;
+body {
+    text-align: center;
 }
 
-#div3 {
-    font-family: arial;
-    font-size: 1em;
+form {
+    width: 450px;
+    margin: auto;
+    background: #24303c;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+h2 {
+    color: #fff;
     text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton {
+    background: #092327;
+    color: #fff;
+    padding: 20px;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+@media (max-width:480px) {
+    form {
+        width: 100%;
+    }
 }
